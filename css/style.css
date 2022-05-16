@@ -33,6 +33,8 @@ header{
 }
 figure img{
     margin: 16px;
+    width: 34px;
+    height: 34px;
 }
 nav{
     display: flex;
@@ -79,9 +81,11 @@ section.card--section {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 20px 100px 20px 100px;
+    padding: 20px 80px 20px 80px;
     box-shadow: 0px 0PX 2px #9be3e0;
     border-radius: 3px;
+    font-weight: bolder;
+    color: gray;
 }
 .card--credit-img {
     background-image: url(/Assets/icons/credit-card.svg);
@@ -92,4 +96,90 @@ section.card--section {
     position: relative;
     right: 10px;
     bottom: 5px;
+}
+.card--investing-img{
+    background-image: url(/Assets/icons/Investing.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card--Insurance-img{
+    background-image: url(/Assets/icons/insurance.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card-Personal-img{
+    background-image: url(/Assets/icons/personal-loans.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card-banking-img{
+    background-image: url(/Assets/icons/bank.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card--travel-img{
+    background-image: url(/Assets/icons/travel.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card--student-img{
+    background-image: url(/Assets/icons/Student-Loans.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+.card--mortgages-img{
+    background-image: url(/Assets/icons/mortgages.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 35px;
+    height: 30px;
+    position: relative;
+    right: 10px;
+    bottom: 5px;
+}
+section.information--section {
+    margin: 40px 20px 40px 20px;
+}
+p.information--tittle {
+    font-weight: bolder;
+    color: grey;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+.information--section h2 {
+    font-weight: 400;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    letter-spacing: 0.04px;
+    margin-bottom: 20px;
 }
