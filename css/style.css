@@ -79,7 +79,9 @@ section.card--section {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
-    padding: 20px 70px 20px 70px;
+    padding: 20px 100px 20px 100px;
+    box-shadow: 0px 0PX 2px #9be3e0;
+    border-radius: 3px;
 }
 .card--credit-img {
     background-image: url(/Assets/icons/credit-card.svg);
