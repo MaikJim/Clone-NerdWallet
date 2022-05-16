@@ -28,8 +28,8 @@ header{
 }
 .header--img-container {
     display: flex;
-    width: 50%;
     height: inherit;
+    object-fit: cover;
 }
 figure img{
     margin: 16px;
@@ -55,7 +55,7 @@ div a{
 .header--join-container {
     border: 1px solid green;
     border-radius: 5px;
-    padding: 6px;
+    padding: 10px;
 }
 .section--container-tittle {
     display: flex;
@@ -84,7 +84,7 @@ section.card--section {
 .card--credit-img {
     background-image: url(/Assets/icons/credit-card.svg);
     background-repeat: no-repeat;
-    background-size: 30px;
+    background-size: cover;
     width: 30px;
     height: 30px;
     position: relative;
