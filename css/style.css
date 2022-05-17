@@ -31,6 +31,17 @@ header{
     height: inherit;
     object-fit: cover;
 }
+h1 {
+    font-size: 3.6rem;
+    line-height: 42.75px;
+    font-weight: 500;
+}
+.text--section-tittle {
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.08px;
+    line-height: 2.6rem;
+}
 figure img{
     margin: 16px;
     width: 34px;
@@ -182,4 +193,68 @@ p.information--tittle {
     line-height: 1.25;
     letter-spacing: 0.04px;
     margin-bottom: 20px;
+}
+.information--img{
+    width: 100%;
+    height: 350px;
+    background-image: url(/Assets/img/cell-phone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+p.information--text {
+    letter-spacing: 0.08px;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+button.buttom-information {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #008255;
+    color: var(--white-header);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 60px;
+}
+.container--cards{
+    width: 100%;
+    height: 350px;
+    background-image: url(/Assets/img/IMG_4128.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+p.select--score {
+    margin-top: 20px;
+    letter-spacing: 0.08px;
+    line-height: 2.4rem;
+    text-align: justify;
+}
+select.select--score {
+    margin-top: 5px;
+    width: 100%;
+    padding: 10px;
+    color: blue;
+    font-size: 1.6rem;
+}
+.spacing{
+    margin-bottom: 10px;
+}
+.buttom-type{
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #008255;
+    color: var(--white-header);
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+.container--div-information div {
+    display: grid;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    justify-items: start;
 }
